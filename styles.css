@@ -1,0 +1,185 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f2f2f2;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Add styles for the header, navigation, and other sections here */
+
+#collaborate-create {
+    text-align: center;
+    padding: 100px 0;
+    background-color: #aba0a0;
+}
+
+#animated-text {
+    font-size: 85px;
+    animation: changeColor 5s infinite; /* Apply the animation to the text */
+    margin-bottom: 20px;
+}
+
+#collaborate-create p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.join-button, .apply-button{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Keyframes animation for changing colors */
+@keyframes changeColor {
+    0% { color: #FF5733; } /* Initial color */
+    25% { color: #33FF57; } /* Change color at 25% of animation */
+    50% { color: #5733FF; } /* Change color at 50% of animation */
+    75% { color: #FF33C8; } /* Change color at 75% of animation */
+    100% { color: #FF5733; } /* Return to initial color */
+}
+
+.join-button {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.apply-button {
+    background-color: #3498db; /* Blue color for Apply Now button */
+    color: white;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+#four-words {
+    text-align: center;
+    color: #3498db;
+    padding: 78px 0;
+    background-color: #f9f9f9; /* Light gray background color */
+}
+
+.word {
+    font-size: 50px; /* Initial font size */
+    display: inline-block;
+    margin: 0 20px; /* Adjust margin for spacing between words */
+}
+
+/* Keyframes animation for changing colors and font size */
+
+
+
+
+#company-info {
+    background-color: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
+
+#company-info h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Existing CSS styles */
+
+/* Existing CSS styles */
+
+#challenges {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.challenge-block {
+    background-color: #f2f2f2; /* Gray background color */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    max-width: 600px; /* Set a maximum width for the challenge block */
+    margin: 0 auto; /* Center the block horizontally */
+}
+
+.challenge-header {
+    background-color: #666;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.challenge-description {
+    text-align: left;
+    margin-top: 10px;
+}
+
+.join-button-container {
+    text-align: center;
+}
+
+.join-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green button color */
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-block {
+    display: inline-block;
+    margin: 0 20px;
+    text-align: left;
+}
+
+.footer-block h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-block p {
+    margin: 0;
+}
+
+.footer-block a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
